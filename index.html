@@ -12,13 +12,13 @@
   <meta property="og:url" content="https://yfengup.github.io/">
   <meta property="og:image" content="https://yfengup.github.io/assets/images/portrait.jpg">
   <link rel="icon" href="./assets/site-icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./assets/site.css">
+  <link rel="stylesheet" href="./assets/site.css?v=6b8a2363">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="./">Dr. Yu FENG</a>
+      <a class="brand" href="./">Yu FENG</a>
       <nav aria-label="Main navigation">
         <ul class="main-nav">
           <li><a href="./" aria-current="page">Home</a></li>
@@ -33,55 +33,108 @@
   <main id="main" class="wrap">
     <section id="about" class="hero" aria-labelledby="profile-name">
       <div class="hero-heading">
-        <p class="affiliation">Research Fellow · National University of Singapore</p>
         <h1 id="profile-name">Yu FENG <span class="name-zh" lang="zh-Hans">丰雨</span></h1>
-        <p class="research-focus">Tactile intelligence for embodied robotics</p>
+        <p class="affiliation">Research Fellow, Department of Mechanical Engineering<br>
+          <a href="https://nus.edu.sg/">National University of Singapore</a>
+        </p>
       </div>
-      <figure class="profile">
-        <img class="portrait" src="./assets/images/portrait.jpg" width="1280" height="1479" alt="Portrait of Yu Feng">
-        <figcaption>
-          <a class="profile-email" href="mailto:yufeng.me@nus.edu.sg">yufeng.me@nus.edu.sg</a>
-          <ul class="profile-links" aria-label="Academic and professional profiles">
-            <li><a href="https://scholar.google.com/citations?user=smujSeoAAAAJ&amp;hl=en" aria-label="Google Scholar" title="Google Scholar"><img src="./assets/images/google-scholar.png" width="22" height="22" alt=""></a></li>
-            <li><a href="https://www.researchgate.net/profile/Yu-Feng-73?ev=hdr_xprf" aria-label="ResearchGate" title="ResearchGate"><img src="./assets/images/researchgate.png" width="22" height="22" alt=""></a></li>
-            <li><a href="https://www.linkedin.com/in/yu-feng-1a800b255/" aria-label="LinkedIn" title="LinkedIn"><img src="./assets/images/linkedin.png" width="22" height="22" alt=""></a></li>
-            <li><a href="https://orcid.org/0000-0003-2211-2161" aria-label="ORCID" title="ORCID"><img src="./assets/images/orcid.png" width="22" height="22" alt=""></a></li>
+      <img class="portrait" src="./assets/images/portrait.jpg" width="1280" height="1479" alt="Portrait of Yu Feng" fetchpriority="high">
+      <div class="hero-main">
+        <p>I study <strong>tactile intelligence for embodied robotics</strong>. At the <a href="https://sites.google.com/view/dr-jianshu-zhou-nus/bio">G&amp;M Lab</a>, I work with <a href="https://cde.nus.edu.sg/me/staff/jianshu-zhou/">Prof. Jianshu Zhou</a> on soft multimodal sensors, electronic skin, and learning-enabled tactile perception for robots and human–robot interaction.</p>
+        <ul class="profile-links" aria-label="Contact and academic profiles">
+          <li><a href="mailto:yufeng.me@nus.edu.sg">yufeng.me@nus.edu.sg</a></li>
+          <li><a href="https://scholar.google.com/citations?user=smujSeoAAAAJ&amp;hl=en">Google Scholar</a></li>
+          <li><a href="https://orcid.org/0000-0003-2211-2161">ORCID</a></li>
+          <li><a href="https://www.researchgate.net/profile/Yu-Feng-73?ev=hdr_xprf">ResearchGate</a></li>
+          <li><a href="https://www.linkedin.com/in/yu-feng-1a800b255/">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="home-section" id="selected-research" aria-labelledby="selected-research-title">
+      <div class="section-heading">
+        <h2 id="selected-research-title">Selected Research</h2>
+        <a class="text-link" href="./research/">All research <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="selected-grid">
+        <article class="selected-project" aria-labelledby="selected-robotac">
+          <a class="project-preview" href="./research/#robotac-skin-demo" aria-label="View the RoboTac Skin demonstration">
+            <img src="./assets/images/robotac-skin.jpg" width="720" height="405" alt="">
+          </a>
+          <h3 id="selected-robotac"><a href="./research/#robotac-skin">RoboTac Skin</a></h3>
+          <p class="venue"><cite>ACS Nano</cite> · 2026</p>
+          <p>A soft ionic skin that independently senses force and temperature during robotic contact.</p>
+          <ul class="resource-links" aria-label="RoboTac Skin resources">
+            <li><a href="https://doi.org/10.1021/acsnano.6c09063" aria-label="RoboTac Skin paper">Paper</a></li>
+            <li><a href="./research/#robotac-skin-demo" aria-label="RoboTac Skin demo">Demo</a></li>
           </ul>
-        </figcaption>
-      </figure>
-      <div class="bio">
-        <p>I am currently a research fellow in the Department of Mechanical Engineering at <a href="https://nus.edu.sg/">National University of Singapore</a>, where I work with <a href="https://cde.nus.edu.sg/me/staff/jianshu-zhou/">Prof. Jianshu Zhou</a> in the <a href="https://sites.google.com/view/dr-jianshu-zhou-nus/bio">G&amp;M Lab</a>. My research focuses on tactile intelligence for embodied robotics, with particular interests in multimodal soft sensors, electronic skin, learning-enabled tactile perception, miniature robotics, and human–robot interaction.</p>
-        <p>I received a B.Eng. degree in Measurement and Control in June 2020 from the College of Automation at <a href="https://www.hrbeu.edu.cn/">Harbin Engineering University</a>, Harbin, China, under the supervision of <a href="https://faculty.hrbeu.edu.cn/FengZhiGuang/zh_CN/index/45689/list/">Prof. Zhiguang Feng</a>. I received my Ph.D. in Mechanical Engineering from <a href="https://www.cityu.edu.hk/">City University of Hong Kong</a>, Hong Kong SAR, in September 2024, under the supervision of <a href="https://www.cityu.edu.hk/mne/people/academic-staff/mne-faculty/prof-li-wen-jung">Prof. Wen Jung Li</a> and <a href="https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yajing-shen-eeyajing">Prof. Yajing Shen</a>. From September 2024 to July 2026, I was a postdoctoral fellow with Prof. Wen Jung Li at the <a href="https://www.wenjungli.org/">WJL Research Group</a>, City University of Hong Kong. I also work closely with <a href="https://www.cityu.edu.hk/stfprofile/xingeyu.htm">Prof. Xinge Yu</a>.</p>
+        </article>
+        <article class="selected-project" aria-labelledby="selected-ml">
+          <a class="project-preview" href="./research/#ml-skin-demo" aria-label="View the ML-skin demonstration">
+            <img src="./assets/images/ml-skin.jpg" width="720" height="405" alt="">
+          </a>
+          <h3 id="selected-ml"><a href="./research/#ml-skin">ML-skin</a></h3>
+          <p class="venue"><cite>Advanced Science</cite> · 2026</p>
+          <p>A soft optical skin that converts contact force into light for high-resolution tactile imaging.</p>
+          <ul class="resource-links" aria-label="ML-skin resources">
+            <li><a href="https://doi.org/10.1002/advs.75507" aria-label="ML-skin paper">Paper</a></li>
+            <li><a href="./research/#ml-skin-demo" aria-label="ML-skin demo">Demo</a></li>
+          </ul>
+        </article>
+        <article class="selected-project" aria-labelledby="selected-mc">
+          <a class="project-preview" href="./research/#mc-tac-demo" aria-label="View the MC-Tac demonstration">
+            <img src="./assets/images/mc-tac.jpg" width="720" height="405" alt="">
+          </a>
+          <h3 id="selected-mc"><a href="./research/#mc-tac">MC-Tac</a></h3>
+          <p class="venue"><cite>IEEE Transactions on Instrumentation and Measurement</cite> · 2026</p>
+          <p>A soft magnetic cilia sensor that detects normal force and the direction of tangential contact.</p>
+          <ul class="resource-links" aria-label="MC-Tac resources">
+            <li><a href="https://doi.org/10.1109/TIM.2026.3714622" aria-label="MC-Tac paper">Paper</a></li>
+            <li><a href="./research/#mc-tac-demo" aria-label="MC-Tac demo">Demo</a></li>
+          </ul>
+        </article>
       </div>
     </section>
 
     <section class="section-grid" id="news" aria-labelledby="news-title">
-      <div class="section-label">
-        <h2 id="news-title">News</h2>
-        <a href="./publications/">Browse publications →</a>
+      <h2 id="news-title">News</h2>
+      <div>
+        <ul class="entries news-entries">
+          <li><time datetime="2026-07">Jul 2026</time><span>First-authored paper accepted in <cite>IEEE Robotics and Automation Letters</cite>.</span></li>
+          <li><time datetime="2026-07">Jul 2026</time><span>First-authored paper accepted in <a href="./publications/#paper-2026-1"><cite>ACS Nano</cite></a>.</span></li>
+          <li><time datetime="2026-07">Jul 2026</time><span>First-authored paper accepted in <a href="./publications/#paper-2026-2"><cite>IEEE Transactions on Instrumentation and Measurement</cite></a>.</span></li>
+          <li><time datetime="2026-05">May 2026</time><span>Co-authored paper accepted in <a href="./publications/#paper-2026-4"><cite>Chemical Engineering Journal</cite></a>.</span></li>
+        </ul>
+        <details class="disclosure news-archive">
+          <summary>Earlier news</summary>
+          <ul class="entries news-entries">
+            <li><time datetime="2026-05">May 2026</time><span>First-authored paper accepted in <a href="./publications/#paper-2026-3"><cite>Advanced Sensor Research</cite></a>.</span></li>
+            <li><time datetime="2026-04">Apr 2026</time><span>First-authored paper accepted in <a href="./publications/#paper-2026-5"><cite>Advanced Science</cite></a>.</span></li>
+            <li><time datetime="2026-01">Jan 2026</time><span>Co-authored paper accepted in <a href="./publications/#paper-2026-6"><cite>Nano-Micro Letters</cite></a>.</span></li>
+            <li><time datetime="2025-09">Sep 2025</time><span>Co-authored paper accepted in <a href="./publications/#paper-2025-2"><cite>ACS Nano</cite></a>.</span></li>
+            <li><time datetime="2025-04">Apr 2025</time><span>Co-authored paper accepted in <a href="./publications/#paper-2025-1"><cite>ACS Applied Electronic Materials</cite></a>.</span></li>
+            <li><time datetime="2024-10">Oct 2024</time><span>First-authored paper accepted in <a href="./publications/#paper-2024-1"><cite>IEEE Open Journal of Nanotechnology</cite></a>.</span></li>
+            <li><time datetime="2024-04">Apr 2024</time><span>First-authored paper accepted in <a href="./publications/#paper-2024-2"><cite>Advanced Functional Materials</cite></a>.</span></li>
+            <li><time datetime="2022-10">Oct 2022</time><span>Co-authored paper accepted in <a href="./publications/#paper-2022-2"><cite>Biosensors and Bioelectronics</cite></a>.</span></li>
+            <li><time datetime="2022-09">Sep 2022</time><span>Co-authored paper accepted in <a href="./publications/#paper-2022-1"><cite>Micromachines</cite></a>.</span></li>
+            <li><time datetime="2022-05">May 2022</time><span>Co-authored paper accepted in <a href="./publications/#paper-2022-3"><cite>Advanced Science</cite></a>.</span></li>
+            <li><time datetime="2022-04">Apr 2022</time><span>Co-authored paper accepted in <a href="./publications/#paper-2022-4"><cite>Matter</cite></a>.</span></li>
+          </ul>
+        </details>
       </div>
-      <ul class="entries news-entries">
-          <li><time datetime="2026-07">Jul 2026</time><span>One first-authored paper gets accepted by IEEE Robotics and Automation Letters (RA-L).</span></li>
-          <li><time datetime="2026-07">Jul 2026</time><span>One first-authored paper gets accepted by ACS Nano.</span></li>
-          <li><time datetime="2026-07">Jul 2026</time><span>One first-authored paper gets accepted by IEEE Transactions on Instrumentation and Measurement (TIM).</span></li>
-          <li><time datetime="2026-05">May 2026</time><span>One co-authored paper gets accepted by Chemical Engineering Journal.</span></li>
-          <li><time datetime="2026-05">May 2026</time><span>One first-authored paper gets accepted by Advanced Sensor Research.</span></li>
-          <li><time datetime="2026-04">Apr 2026</time><span>One first-authored paper gets accepted by Advanced Science.</span></li>
-          <li><time datetime="2026-01">Jan 2026</time><span>One co-authored paper gets accepted by Nano-Micro Letters.</span></li>
-          <li><time datetime="2025-09">Sep 2025</time><span>One co-authored paper gets accepted by ACS Nano.</span></li>
-          <li><time datetime="2025-04">Apr 2025</time><span>One co-authored paper gets accepted by ACS Applied Electronic Materials.</span></li>
-          <li><time datetime="2024-10">Oct 2024</time><span>One first-authored paper gets accepted by IEEE Open Journal of Nanotechnology.</span></li>
-          <li><time datetime="2024-04">Apr 2024</time><span>One first-authored paper gets accepted by Advanced Functional Materials.</span></li>
-          <li><time datetime="2022-10">Oct 2022</time><span>One co-authored paper gets accepted by Biosensors and Bioelectronics.</span></li>
-          <li><time datetime="2022-09">Sep 2022</time><span>One co-authored paper gets accepted by Micromachines.</span></li>
-          <li><time datetime="2022-05">May 2022</time><span>One co-authored paper gets accepted by Advanced Science.</span></li>
-          <li><time datetime="2022-04">Apr 2022</time><span>One co-authored paper gets accepted by Matter.</span></li>
-      </ul>
+    </section>
+
+    <section class="section-grid" id="background" aria-labelledby="background-title">
+      <h2 id="background-title">Background</h2>
+      <div class="prose">
+        <p>From September 2024 to July 2026, I was a postdoctoral fellow with <a href="https://www.cityu.edu.hk/mne/people/academic-staff/mne-faculty/prof-li-wen-jung">Prof. Wen Jung Li</a> at the <a href="https://www.wenjungli.org/">WJL Research Group</a>, City University of Hong Kong. I also collaborate with <a href="https://www.cityu.edu.hk/stfprofile/xingeyu.htm">Prof. Xinge Yu</a>.</p>
+        <p>I received my Ph.D. in Mechanical Engineering from <a href="https://www.cityu.edu.hk/">City University of Hong Kong</a> in September 2024 under the supervision of Prof. Wen Jung Li and <a href="https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yajing-shen-eeyajing">Prof. Yajing Shen</a>. I earned my B.Eng. in Measurement and Control in June 2020 from the College of Automation at <a href="https://www.hrbeu.edu.cn/">Harbin Engineering University</a>, under the supervision of <a href="https://faculty.hrbeu.edu.cn/FengZhiGuang/zh_CN/index/45689/list/">Prof. Zhiguang Feng</a>.</p>
+      </div>
     </section>
   </main>
   <footer class="site-footer">
     <div class="wrap footer-inner">
-      <p>For research discussions, <a href="mailto:yufeng.me@nus.edu.sg">get in touch by email</a>.</p>
+      <p>Yu FENG · <a href="mailto:yufeng.me@nus.edu.sg">yufeng.me@nus.edu.sg</a></p>
       <p><a href="https://datastudio.google.com/reporting/6788afb3-9048-4d40-ae62-1a32c38c40f3/page/cOt5F">Original site visitor map (Looker Studio)</a></p>
     </div>
   </footer>

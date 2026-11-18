@@ -2,7 +2,7 @@
 
 站点发布在 [yfengup.github.io](https://yfengup.github.io/)。内容迁自 [原 Google Sites 主页](https://sites.google.com/view/yufengsteve/home)。
 
-- [`index.html`](index.html) 包含个人简介、联系方式和研究动态。
+- [`index.html`](index.html) 包含个人简介、联系方式、代表研究和研究动态。
 - [`research/index.html`](research/index.html) 包含研究方向、项目和演示。
 - [`publications/index.html`](publications/index.html) 按年份列出论文。
 - [`activities/index.html`](activities/index.html) 记录报告、会议活动和学术服务。
