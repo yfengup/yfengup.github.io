@@ -12,4 +12,4 @@
 
 GitHub Pages 从 `main` 分支根目录发布。编辑 HTML 后将改动提交到该分支即可触发部署。页面和媒体使用相对路径，也可将这些文件直接部署到其他静态托管服务。
 
-首页底部先显示截至 2026 年 11 月 17 日的国家或地区级活跃用户快照。底图与快照由站点本身提供，展开实时地图时加载原 Looker Studio 报告。`assets/analytics.js` 沿用旧 Google Sites 的 Google Analytics 数据流，仅在 `yfengup.github.io` 记录新站访问。
+首页底部嵌入原 Looker Studio 访问地图，滚动到附近时加载。`assets/analytics.js` 沿用旧 Google Sites 的 Google Analytics 数据流，仅在 `yfengup.github.io` 记录新站访问。
