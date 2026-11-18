@@ -12,7 +12,9 @@
   <meta property="og:url" content="https://yfengup.github.io/">
   <meta property="og:image" content="https://yfengup.github.io/assets/images/portrait.jpg">
   <link rel="icon" href="./assets/site-icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./assets/site.css?v=6b8a2363">
+  <link rel="stylesheet" href="./assets/site.css?v=1a5b3502">
+  <script defer src="./assets/visitor-map.js"></script>
+  <script defer src="./assets/analytics.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -131,11 +133,67 @@
         </details>
       </div>
     </section>
+
+    <section class="home-section visitor-map" id="visitor-map" aria-labelledby="visitor-map-title">
+      <div class="section-heading">
+        <h2 id="visitor-map-title">Visitor Map</h2>
+        <p class="visitor-map-date">Historical snapshot through <time datetime="2026-11-17">Nov 17, 2026</time></p>
+      </div>
+      <figure class="visitor-map-figure">
+        <img src="./assets/images/visitor-map.png" width="2112" height="936" loading="lazy"
+             alt="World map of historical visitors. The largest circles are in East and Southeast Asia and the United States. Details by country or region are below.">
+        <figcaption>
+          <span class="visitor-map-legend">Circle size represents active users by country or region.</span>
+          <span>Source: Google Analytics · Map data: <a href="https://www.naturalearthdata.com/">Natural Earth</a></span>
+        </figcaption>
+      </figure>
+      <details class="disclosure visitor-map-details">
+        <summary>Historical breakdown by country or region</summary>
+        <table class="visitor-map-table">
+          <thead><tr><th scope="col">Country or region</th><th scope="col">Active users</th></tr></thead>
+          <tbody>
+              <tr><th scope="row">China</th><td>43</td></tr>
+              <tr><th scope="row">Singapore</th><td>38</td></tr>
+              <tr><th scope="row">United States</th><td>27</td></tr>
+              <tr><th scope="row">Hong Kong</th><td>23</td></tr>
+              <tr><th scope="row">Brazil</th><td>6</td></tr>
+              <tr><th scope="row">Thailand</th><td>6</td></tr>
+              <tr><th scope="row">Indonesia</th><td>5</td></tr>
+              <tr><th scope="row">Japan</th><td>5</td></tr>
+              <tr><th scope="row">Taiwan</th><td>4</td></tr>
+              <tr><th scope="row">India</th><td>3</td></tr>
+              <tr><th scope="row">Australia</th><td>2</td></tr>
+              <tr><th scope="row">Germany</th><td>2</td></tr>
+              <tr><th scope="row">Macao</th><td>2</td></tr>
+              <tr><th scope="row">Netherlands</th><td>2</td></tr>
+              <tr><th scope="row">Vietnam</th><td>2</td></tr>
+              <tr><th scope="row">France</th><td>1</td></tr>
+              <tr><th scope="row">Ireland</th><td>1</td></tr>
+              <tr><th scope="row">Kenya</th><td>1</td></tr>
+              <tr><th scope="row">Malaysia</th><td>1</td></tr>
+              <tr><th scope="row">Mexico</th><td>1</td></tr>
+              <tr><th scope="row">Philippines</th><td>1</td></tr>
+              <tr><th scope="row">South Africa</th><td>1</td></tr>
+              <tr><th scope="row">Syria</th><td>1</td></tr>
+              <tr><th scope="row">Tunisia</th><td>1</td></tr>
+          </tbody>
+        </table>
+      </details>
+      <details class="disclosure visitor-map-details" id="visitor-map-live">
+        <summary>Live visitor map (Looker Studio)</summary>
+        <template>
+          <iframe class="visitor-map-frame" title="Live visitor map and visit totals from Looker Studio"
+                  src="https://datastudio.google.com/embed/reporting/6788afb3-9048-4d40-ae62-1a32c38c40f3/page/cOt5F"
+                  loading="lazy" allowfullscreen
+                  sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+        </template>
+        <p><a href="https://datastudio.google.com/reporting/6788afb3-9048-4d40-ae62-1a32c38c40f3/page/cOt5F">Open the full report in Looker Studio</a></p>
+      </details>
+    </section>
   </main>
   <footer class="site-footer">
     <div class="wrap footer-inner">
       <p>Yu FENG · <a href="mailto:yufeng.me@nus.edu.sg">yufeng.me@nus.edu.sg</a></p>
-      <p><a href="https://datastudio.google.com/reporting/6788afb3-9048-4d40-ae62-1a32c38c40f3/page/cOt5F">Original site visitor map (Looker Studio)</a></p>
     </div>
   </footer>
 </body>

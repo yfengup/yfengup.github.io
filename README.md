@@ -2,7 +2,7 @@
 
 站点发布在 [yfengup.github.io](https://yfengup.github.io/)。内容迁自 [原 Google Sites 主页](https://sites.google.com/view/yufengsteve/home)。
 
-- [`index.html`](index.html) 包含个人简介、联系方式、代表研究和研究动态。
+- [`index.html`](index.html) 包含个人简介、联系方式、代表研究、研究动态和访问地图。
 - [`research/index.html`](research/index.html) 包含研究方向、项目和演示。
 - [`publications/index.html`](publications/index.html) 按年份列出论文。
 - [`activities/index.html`](activities/index.html) 记录报告、会议活动和学术服务。
@@ -10,4 +10,6 @@
 
 在仓库根目录运行 `python3 -m http.server 8000`，然后打开 [本地预览](http://localhost:8000/)。
 
-GitHub Pages 从 `main` 分支根目录发布。编辑 HTML 后将改动提交到该分支即可触发部署。页面和媒体使用相对路径，也可将这些文件直接部署到其他静态托管服务。原访客地图仍通过首页底部的 Looker Studio 链接访问。
+GitHub Pages 从 `main` 分支根目录发布。编辑 HTML 后将改动提交到该分支即可触发部署。页面和媒体使用相对路径，也可将这些文件直接部署到其他静态托管服务。
+
+首页底部先显示截至 2026 年 11 月 17 日的国家或地区级活跃用户快照。底图与快照由站点本身提供，展开实时地图时加载原 Looker Studio 报告。`assets/analytics.js` 沿用旧 Google Sites 的 Google Analytics 数据流，仅在 `yfengup.github.io` 记录新站访问。
