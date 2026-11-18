@@ -108,6 +108,8 @@ p:last-child { margin-bottom: 0; }
 .hero-main { max-width: 67ch; }
 .hero-main p { margin-bottom: 0.85rem; }
 .hero-main strong { color: var(--ink); font-weight: 650; }
+.hero-background { margin-block: 1.15rem; }
+.hero-background h2 { margin-bottom: 0.45rem; font-size: 1.05rem; }
 .name-zh {
   display: inline-block;
   margin-inline-start: 0.42em;
