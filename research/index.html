@@ -13,7 +13,6 @@
   <meta property="og:image" content="https://yfengup.github.io/assets/images/portrait.jpg">
   <link rel="icon" href="../assets/site-icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../assets/site.css">
-  <script defer src="../assets/site.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -26,14 +25,13 @@
           <li><a href="../research/" aria-current="page">Research</a></li>
           <li><a href="../publications/">Publications</a></li>
           <li><a href="../activities/">Activities</a></li>
-          <li><button class="search-open" type="button" hidden><span class="search-icon" aria-hidden="true"></span>Search</button></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="main" class="wrap">
-    <section class="page-intro" id="research-overview" data-search aria-labelledby="research-title">
+    <section class="page-intro" id="research-overview" aria-labelledby="research-title">
       <h1 id="research-title">Research</h1>
       <p>My research focuses on tactile intelligence for embodied robotics. I develop soft multimodal sensors and electronic skins, investigate their underlying transduction mechanisms and mechanics, and integrate them with learning-based perception for dexterous manipulation and natural human-robot interaction. My work spans force-temperature self-decoupled sensing, optical and magnetic tactile interfaces, wearable human-machine interfaces, and miniature soft robots. The broader goal is to build embodied systems that perceive contact, reason about physical interaction, and adapt their behavior in real time.</p>
       <ul class="jump-links" aria-label="Research topics">
@@ -47,7 +45,7 @@
 
     <section class="project" id="robotac-skin" aria-labelledby="robotac-skin-topic">
       <h2 id="robotac-skin-topic">Multimodal Tactile Sensing</h2>
-      <div class="project-body" id="robotac-skin-details" data-search>
+      <div class="project-body" id="robotac-skin-details">
         <figure>
           <video class="project-media" controls playsinline preload="none" poster="../assets/images/robotac-skin.jpg" aria-label="RoboTac Skin demonstration">
             <source src="../assets/video/robotac-skin.mp4" type="video/mp4">
@@ -65,7 +63,7 @@
 
     <section class="project" id="ml-skin" aria-labelledby="ml-skin-topic">
       <h2 id="ml-skin-topic">Optical Tactile Sensing</h2>
-      <div class="project-body" id="ml-skin-details" data-search>
+      <div class="project-body" id="ml-skin-details">
         <figure>
           <video class="project-media" controls playsinline preload="none" poster="../assets/images/ml-skin.jpg" aria-label="Mechanoluminescent skin demonstration">
             <source src="../assets/video/ml-skin.mp4" type="video/mp4">
@@ -83,7 +81,7 @@
 
     <section class="project" id="mc-tac" aria-labelledby="mc-tac-topic">
       <h2 id="mc-tac-topic">Magnetic Tactile Sensing</h2>
-      <div class="project-body" id="mc-tac-details" data-search>
+      <div class="project-body" id="mc-tac-details">
         <figure>
           <video class="project-media" controls playsinline preload="none" poster="../assets/images/mc-tac.jpg" aria-label="Magnetociliary tactile sensor demonstration">
             <source src="../assets/video/mc-tac.mp4" type="video/mp4">
@@ -101,7 +99,7 @@
 
     <section class="project" id="electronic-slime" aria-labelledby="electronic-slime-topic">
       <h2 id="electronic-slime-topic">Wearable and Human–Machine Interfaces</h2>
-      <div class="project-body" id="electronic-slime-details" data-search>
+      <div class="project-body" id="electronic-slime-details">
         <figure>
           <video class="project-media" controls playsinline preload="none" poster="../assets/images/electronic-slime.png" aria-label="Electronic Slime demonstration">
             <source src="../assets/video/electronic-slime.mp4" type="video/mp4">
@@ -121,15 +119,5 @@
       <p>For research discussions, <a href="mailto:yufeng.me@nus.edu.sg">get in touch by email</a>.</p>
     </div>
   </footer>
-
-  <dialog class="search-dialog" aria-labelledby="search-heading">
-    <div class="search-head">
-      <h2 id="search-heading">Search this site</h2>
-      <form method="dialog"><button class="search-close">Close</button></form>
-    </div>
-    <input class="search-input" type="search" aria-label="Search query" placeholder="Try a paper title or research topic" autocomplete="off">
-    <p class="search-status" role="status"></p>
-    <ul class="search-results"></ul>
-  </dialog>
 </body>
 </html>

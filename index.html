@@ -13,7 +13,6 @@
   <meta property="og:image" content="https://yfengup.github.io/assets/images/portrait.jpg">
   <link rel="icon" href="./assets/site-icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./assets/site.css">
-  <script defer src="./assets/site.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -26,14 +25,13 @@
           <li><a href="./research/">Research</a></li>
           <li><a href="./publications/">Publications</a></li>
           <li><a href="./activities/">Activities</a></li>
-          <li><button class="search-open" type="button" hidden><span class="search-icon" aria-hidden="true"></span>Search</button></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="main" class="wrap">
-    <section id="about" class="hero" data-search aria-labelledby="profile-name">
+    <section id="about" class="hero" aria-labelledby="profile-name">
       <div class="hero-heading">
         <p class="affiliation">Research Fellow · National University of Singapore</p>
         <h1 id="profile-name">Yu FENG <span class="name-zh" lang="zh-Hans">丰雨</span></h1>
@@ -57,7 +55,7 @@
       </div>
     </section>
 
-    <section class="section-grid" id="news" data-search aria-labelledby="news-title">
+    <section class="section-grid" id="news" aria-labelledby="news-title">
       <div class="section-label">
         <h2 id="news-title">News</h2>
         <a href="./publications/">Browse publications →</a>
@@ -87,15 +85,5 @@
       <p><a href="https://datastudio.google.com/reporting/6788afb3-9048-4d40-ae62-1a32c38c40f3/page/cOt5F">Original site visitor map (Looker Studio)</a></p>
     </div>
   </footer>
-
-  <dialog class="search-dialog" aria-labelledby="search-heading">
-    <div class="search-head">
-      <h2 id="search-heading">Search this site</h2>
-      <form method="dialog"><button class="search-close">Close</button></form>
-    </div>
-    <input class="search-input" type="search" aria-label="Search query" placeholder="Try a paper title or research topic" autocomplete="off">
-    <p class="search-status" role="status"></p>
-    <ul class="search-results"></ul>
-  </dialog>
 </body>
 </html>
