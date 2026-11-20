@@ -159,9 +159,12 @@ p:last-child { margin-bottom: 0; }
 .project-preview img {
   width: 100%;
   height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  padding: 0.4rem;
   border: 1px solid var(--line);
   border-radius: 0.4rem;
-  background: var(--wash);
+  background: #fff;
 }
 .project-preview:hover img { border-color: var(--accent); }
 .selected-project h3 a { color: var(--ink); text-decoration: none; }
