@@ -303,7 +303,13 @@ p:last-child { margin-bottom: 0; }
   border-radius: 6px;
   background: #fff;
 }
-.pub-thumb img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.pub-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  translate: var(--thumb-offset, none);
+}
 @media (hover: hover) and (pointer: fine) {
   .pub-thumb {
     transition: transform 180ms ease-out, box-shadow 180ms ease-out;
