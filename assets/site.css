@@ -151,7 +151,7 @@ p:last-child { margin-bottom: 0; }
 }
 .selected-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: clamp(1.25rem, 2.8vw, 2rem);
 }
 .selected-project { display: flex; flex-direction: column; }
@@ -338,6 +338,10 @@ p:last-child { margin-bottom: 0; }
 .service-block h3 { margin-bottom: 0.45rem; }
 .service-block p { margin-bottom: 0.6rem; }
 
+@media (max-width: 960px) {
+  .selected-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
 @media (max-width: 730px) {
   .header-inner { flex-wrap: wrap; padding-block: 0.48rem; }
   .main-nav { gap: 0.1rem 0.9rem; }
@@ -355,7 +359,6 @@ p:last-child { margin-bottom: 0; }
   .section-grid, .year-group, .project-body, .research-intro-grid, .contact-section { grid-template-columns: 1fr; }
   .home-section, .section-grid, .year-group, .project { padding-block: 1.4rem 1.65rem; }
   .page-intro { padding-block: 2.2rem 1.4rem; }
-  .selected-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 510px) {
   .wrap { width: calc(100% - 2rem); }
