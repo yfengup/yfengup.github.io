@@ -172,6 +172,13 @@ p:last-child { margin-bottom: 0; }
   translate: var(--thumb-offset, none);
 }
 .project-preview:hover { border-color: var(--accent); }
+.project-preview--robotac { display: grid; align-items: center; }
+.project-preview--robotac img {
+  height: auto;
+  /* Crop the cream border baked into the homepage TOC image. */
+  clip-path: inset(1.5% 9.5% 7.6% 0);
+  translate: 4.75% 3.05%;
+}
 .selected-project h3 a { color: var(--ink); text-decoration: none; }
 .selected-project h3 a:hover { color: var(--accent); text-decoration: underline; }
 .selected-project p { margin: 0.5rem 0 0.65rem; font-size: 0.93rem; }
