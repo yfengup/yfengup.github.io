@@ -44,6 +44,7 @@ h2 { font-size: clamp(1.4rem, 2.45vw, 1.75rem); font-weight: 660; letter-spacing
 h3 { font-size: 1.12rem; font-weight: 650; letter-spacing: -0.014em; }
 p { margin: 0 0 1em; }
 p:last-child { margin-bottom: 0; }
+p:not([class]) { text-align: justify; hyphens: auto; -webkit-hyphens: auto; text-wrap: pretty; }
 
 .wrap { width: min(1056px, calc(100% - 3rem)); margin-inline: auto; }
 .skip-link {
@@ -373,6 +374,7 @@ p:last-child { margin-bottom: 0; }
   .page-intro { padding-block: 2.2rem 1.4rem; }
 }
 @media (max-width: 510px) {
+  p:not([class]) { text-align: left; }
   .wrap { width: calc(100% - 2rem); }
   .selected-grid { grid-template-columns: 1fr; gap: 1.55rem; }
   .selected-project + .selected-project { padding-top: 1.25rem; border-top: 1px solid var(--line); }
